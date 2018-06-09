@@ -1,1 +1,16 @@
-name:this is for testing for msa-gateway default.
+spring:
+  application:
+    name: ec-configcenter
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/yanshaohui01/config-server-git.git
+          username: yan_shaohui@126.com
+          password: ysh588722
+
+server:
+  port: 45002
+logging:
+  config: classpath:log4j2.xml
+  name: 启用log4j2
