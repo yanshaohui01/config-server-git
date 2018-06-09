@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ec-gateway
+
+server:
+  port: 45003
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:45001/eureka/
+    #defaultZone: http://eureka.didispace.com/eureka/
+logging:
+  config: classpath:log4j2.xml
