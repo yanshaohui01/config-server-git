@@ -1,1 +1,8 @@
 name:this is for config-server tese dev
+host=192.168.1.12:1101;192,168.1.13:1102;192.168.1.14:1103
+# ===============微信消息地址配置=================
+# 获取token
+wechat.token01=https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wxa3586d65b31ef8dd&secret=a76e19731b8de3506fd191e73603ed96
+wechat.appid01=
+wechat.secret=
+wechat.welcomeMsg="欢迎关注微信公众号！！"
